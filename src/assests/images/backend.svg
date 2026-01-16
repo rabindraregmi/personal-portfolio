@@ -12,26 +12,26 @@
 
   <defs>
     <linearGradient id="bgBlob" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f2f2f2"/>
-      <stop offset="1" stop-color="#ffffff"/>
+      <stop offset="0" stopColor="#f2f2f2"/>
+      <stop offset="1" stopColor="#ffffff"/>
     </linearGradient>
 
     <linearGradient id="purpleGlow" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#55198b" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#55198b" stop-opacity="0"/>
+      <stop offset="0" stopColor="#55198b" stopOpacity=".22"/>
+      <stop offset="1" stopColor="#55198b" stopOpacity="0"/>
     </linearGradient>
 
     <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity=".14"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity=".06"/>
+      <stop offset="0" stopColor="#ffffff" stopOpacity=".14"/>
+      <stop offset="1" stopColor="#ffffff" stopOpacity=".06"/>
     </linearGradient>
 
     <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".18"/>
+      <feDropShadow dx="0" dy="10" stdDeviation="12" floodColor="#000" floodOpacity=".18"/>
     </filter>
 
     <filter id="tinyShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity=".14"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="4" floodColor="#000" floodOpacity=".14"/>
     </filter>
 
     <clipPath id="cardClip">
@@ -46,12 +46,12 @@
         fill="#f2f2f2" opacity=".7"/>
 
   <!-- Ground -->
-  <line x1="90" y1="640" x2="1110" y2="640" stroke="#3f3d56" stroke-width="2"/>
+  <line x1="90" y1="640" x2="1110" y2="640" stroke="#3f3d56" strokeWidth="2"/>
 
   <!-- Decorative arcs (left) -->
-  <path d="M130 640c0-62 43-112 98-112" fill="none" stroke="#55198b" stroke-width="7" stroke-linecap="round"/>
-  <path d="M130 640c0-96 67-174 152-174" fill="none" stroke="#46455b" stroke-width="7" stroke-linecap="round"/>
-  <path d="M130 640c0-46 20-84 45-84" fill="none" stroke="#55198b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M130 640c0-62 43-112 98-112" fill="none" stroke="#55198b" strokeWidth="7" strokeLinecap="round"/>
+  <path d="M130 640c0-96 67-174 152-174" fill="none" stroke="#46455b" strokeWidth="7" strokeLinecap="round"/>
+  <path d="M130 640c0-46 20-84 45-84" fill="none" stroke="#55198b" strokeWidth="7" strokeLinecap="round"/>
 
   <!-- Main card -->
   <g filter="url(#softShadow)">
@@ -103,7 +103,7 @@
   </g>
 
   <!-- Content inside card -->
-  <g clip-path="url(#cardClip)">
+  <g clipPath="url(#cardClip)">
     <!-- Server Rack (left) -->
     <g transform="translate(270 210)">
       <rect x="0" y="0" width="230" height="320" rx="22" fill="#55198b"/>
@@ -144,7 +144,7 @@
     </g>
 
     <!-- API arrows between rack and terminal -->
-    <g stroke="#f2f2f2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <g stroke="#f2f2f2" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round" opacity=".9">
       <path d="M520 320h55"/>
       <path d="M560 300l25 20-25 20"/>
       <path d="M575 382H520" opacity=".75"/>
@@ -187,8 +187,8 @@
       <ellipse cx="0" cy="0" rx="90" ry="22" fill="#55198b" opacity=".18"/>
 
       <!-- DB stripes -->
-      <path d="M-90 26c0 12 40 22 90 22s90-10 90-22" fill="none" stroke="#e6e6e6" stroke-width="3"/>
-      <path d="M-90 52c0 12 40 22 90 22s90-10 90-22" fill="none" stroke="#e6e6e6" stroke-width="3"/>
+      <path d="M-90 26c0 12 40 22 90 22s90-10 90-22" fill="none" stroke="#e6e6e6" strokeWidth="3"/>
+      <path d="M-90 52c0 12 40 22 90 22s90-10 90-22" fill="none" stroke="#e6e6e6" strokeWidth="3"/>
 
       <!-- label -->
       <rect x="-54" y="22" width="108" height="30" rx="10" fill="#3f3d56" opacity=".9"/>
@@ -199,7 +199,7 @@
     <g transform="translate(900 520)" filter="url(#tinyShadow)">
       <circle r="42" fill="#ffffff"/>
       <circle r="32" fill="#57b894" opacity=".18"/>
-      <path d="M-18 2l11 11 25-28" fill="none" stroke="#57b894" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-18 2l11 11 25-28" fill="none" stroke="#57b894" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round"/>
     </g>
   </g>
 

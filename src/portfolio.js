@@ -7,9 +7,9 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Rabindra's Portfolio",
+  title: "Rabindra Regmi | Senior Backend & Blockchain Engineer",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Senior Backend & Blockchain Engineer with 5+ years of experience building scalable frontend and backend systems, microservices, and blockchain infrastructure. Strong in Rust, Go, Typescript, React and Node.js with production deployments on AWS and Kubernetes; focused on performance, reliability, and security.",
   og: {
     title: "Rabindra Regmi Portfolio",
     type: "website",
@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "RabindraRegmi",
   nickname: "",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Senior Backend & Blockchain Engineer (5+ years) building scalable microservices and blockchain infrastructure. Strong in Rust, Go, Typescript,Node.js; AWS + Kubernetes production deployments; focused on reliability, performance, and security.",
   resumeLink:
-    "https://drive.google.com/file/d/1lVW9tpXIDH-NLXSTVZYwNrMlMTc_fp-_/view?usp=sharing",
+    "https://drive.google.com/file/d/1nnnmnSkZ7qdYQiHQyqGtbkA6czhzf9rv/view?usp=sharing",
   portfolio_repository: "https://github.com/rabindraregmi",
   githubProfile: "https://github.com/rabindraregmi",
 };
@@ -48,7 +48,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/rabindra-regmi-a5498a188/",
+    link: "https://www.linkedin.com/in/rabindraregmi/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -86,253 +86,197 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    // {
-    //   title: "Data Science & AI",
-    //   fileName: "DataScienceImg",
-    //   skills: [
-    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-    //     "⚡ Experience of working with Computer Vision and NLP projects",
-    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Tensorflow",
-    //       fontAwesomeClassname: "logos-tensorflow",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Keras",
-    //       fontAwesomeClassname: "simple-icons:keras",
-    //       style: {
-    //         backgroundColor: "white",
-    //         color: "#D00000",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PyTorch",
-    //       fontAwesomeClassname: "logos-pytorch",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Python",
-    //       fontAwesomeClassname: "ion-logo-python",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //         color: "#3776AB",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Deeplearning",
-    //       imageSrc: "deeplearning_ai_logo.png",
-    //     },
-    //   ],
-    // },
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Backend Development",
+      fileName: "BackendImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native",
-        "⚡ Creating application backend in Node, Express, GoLang & Flask",
+        "⚡ Building scalable backend systems in Rust, Go, and Node.js",
+        "⚡ Developing microservices and APIs using REST and GraphQL",
+        "⚡ Implementing authentication and authorization with JWT and OAuth",
+        "⚡ Integrating with external APIs and databases",
+        "⚡ Monitoring and logging with Prometheus and Grafana",
+        "⚡ Containerizing applications with Docker and Kubernetes",
+        "⚡ CI/CD pipelines with GitHub Actions and Jenkins",
+        "⚡ Testing and debugging with Jest and Mocha",
+        "⚡ Code quality with SonarQube and ESLint",
+        "⚡ Performance optimization with Redis and Memcached",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
+          skillName: "Rust",
+          fontAwesomeClassname: "simple-icons:rust",
+          style: { color: "#000000" },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
+          skillName: "Go",
+          fontAwesomeClassname: "simple-icons:go",
+          style: { color: "#00ADD8" },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
+          skillName: "Node.js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
+          style: { color: "#339933" },
         },
         {
           skillName: "TypeScript",
           fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#3178C6",
-          },
+          style: { color: "#3178C6" },
         },
         {
-          skillName: "GoLang",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            // backgroundColor: "#ffffff0",
-            color: "#00ADD8",
-          },
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: { backgroundColor: "#000000", color: "#F7DF1E" },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:nodedotjs",
-          style: {
-            color: "#339933",
-          },
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: { color: "#3776AB" },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
+          skillName: "Kafka",
+          fontAwesomeClassname: "simple-icons:apachekafka",
+          style: { color: "#231F20" },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: { color: "#E10098" },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
+          skillName: "Express.js",
+          fontAwesomeClassname: "simple-icons:express",
+          style: { color: "#000000" },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: { color: "#092E20" },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
+      title: "Blockchain & Web3",
+      fileName: "DesignImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Building blockchain infrastructure: indexers, relayers, bridges, and explorer backends",
+        "⚡ Smart contract development & testing using Solidity and Hardhat (EVM)",
+        "⚡ Experience with L2 infrastructure and rollups; EigenLayer AVS development (Go)",
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
+          skillName: "Solidity",
+          fontAwesomeClassname: "simple-icons:solidity",
+          style: { color: "#363636" },
         },
+        // Hardhat icon varies by template; keep if it renders, otherwise remove.
+        {
+          skillName: "Solana",
+          fontAwesomeClassname: "simple-icons:solana",
+          style: { color: "#4E4E4E" },
+        },
+        {
+          skillName: "Ethereum",
+          fontAwesomeClassname: "simple-icons:ethereum",
+          style: { color: "#3C3C3D" },
+        },
+        {
+          skillName: "Web3.js",
+          fontAwesomeClassname: "simple-icons:web3dotjs",
+          style: { color: "#F16822" },
+        },
+        {
+          skillName: "Rust",
+          fontAwesomeClassname: "simple-icons:rust",
+          style: { color: "#000000" },
+        },
+        {
+          skillName: "Go",
+          fontAwesomeClassname: "simple-icons:go",
+          style: { color: "#00ADD8" },
+        },
+      ],
+    },
+    {
+      title: "Cloud Infrastructure",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Production deployments on AWS with Docker + Kubernetes",
+        "⚡ CI/CD with GitHub Actions and GitOps deployments (ArgoCD)",
+        "⚡ Observability with Prometheus + Grafana for monitoring and reliability",
+      ],
+      softwareSkills: [
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        // {
-        //   skillName: "Azure",
-        //   fontAwesomeClassname: "simple-icons:microsoftazure",
-        //   style: {
-        //     color: "#0089D6",
-        //   },
-        // },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
+          style: { color: "#FF9900" },
         },
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
+          style: { color: "#2496ED" },
         },
         {
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
+          style: { color: "#326CE5" },
+        },
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "simple-icons:terraform",
+          style: { color: "#7B42BC" },
+        },
+        // Argo icon sometimes uses "argo" or "argocd" depending on icon set
+        {
+          skillName: "ArgoCD",
+          fontAwesomeClassname: "simple-icons:argo",
+          style: { color: "#EF7B4D" },
+        },
+        {
+          skillName: "Prometheus",
+          fontAwesomeClassname: "simple-icons:prometheus",
+          style: { color: "#E6522C" },
+        },
+        {
+          skillName: "Grafana",
+          fontAwesomeClassname: "simple-icons:grafana",
+          style: { color: "#F46800" },
+        },
+        {
+          skillName: "GitHub Actions",
+          fontAwesomeClassname: "simple-icons:githubactions",
+          style: { color: "#2088FF" },
         },
       ],
     },
     {
-      title: "Web3 Development",
-      fileName: "DesignImg",
+      title: "Frontend (as needed)",
+      fileName: "FullStackImg",
       skills: [
-        "⚡ Developing & Testing Smart Contract for EVM and Non-EVM Chains",
-        "⚡ Developing decentralized Applications",
+        "⚡ Building product UIs with React/Next.js for frontend applications",
+        "⚡ Styling with Tailwind, SCSS",
+        "⚡ Building responsive web applications",
+        "⚡ Optimizing frontend performance with React.js and Next.js",
       ],
       softwareSkills: [
         {
-          skillName: "Ethereum",
-          fontAwesomeClassname: "simple-icons:ethereum",
-          style: {
-            color: "#3C3C3D",
-          },
+          skillName: "React",
+          fontAwesomeClassname: "simple-icons:react",
+          style: { color: "#61DAFB" },
         },
         {
-          skillName: "ICON",
-          fontAwesomeClassname: "simple-icons:icon",
-          style: {
-            color: "#31B8BB",
-          },
+          skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: { color: "#000000" },
         },
         {
-          skillName: "GoLang",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            backgroundColor: "#ffffff0",
-            color: "#00ADD8",
-          },
-        },
-
-        {
-          skillName: "Web3.js",
-          fontAwesomeClassname: "simple-icons:web3dotjs",
-          style: {
-            color: "#F16822",
-          },
+          skillName: "Tailwind",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
+          style: { color: "#06B6D4" },
         },
         {
-          skillName: "Solidity",
-          fontAwesomeClassname: "simple-icons:solidity",
-          style: {
-            color: "#363636",
-          },
+          skillName: "SCSS",
+          fontAwesomeClassname: "simple-icons:sass",
+          style: { color: "#CC6699" },
         },
       ],
     },
@@ -493,7 +437,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as freelancer developer. I have also worked with some well established companies mostly as Full stack developer. Recently, I am in Web3 space developong blockchain applications and dApps.",
+    "Senior Backend & Blockchain Engineer with 5+ years of experience building scalable backend systems, microservices, and blockchain infrastructure. Focused on performance, reliability, and security.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -502,13 +446,36 @@ const experience = {
       experiences: [
         {
           title: "Software Engineer",
-          company: "Ibriz.Ai",
+          company: "Cedro Labs (now Twine Labs)",
+          // (Your CV doesn't include a public company URL; add one if you want.)
+          company_url: "",
+          logo_path: "twine-logo.png", // replace with your actual asset name if different
+          duration: "Nov 2023 - Present",
+          location: "Remote (US-based)",
+          description:
+            "• Led end-to-end development of an omnichain lending/borrowing protocol across EVM chains using React, Node.js, and TypeScript.\n" +
+            "• Developed an Active Validator Service (AVS) on EigenLayer for AI-based DeFi protocols using Go.\n" +
+            "• Built and maintained an L2 blockchain indexer with 99% reliability powering a production explorer.\n" +
+            "• Designed and maintained microservices (bridge, L1 indexer, relayer) using Kafka for scalable event-driven architecture.\n" +
+            "• Implemented a centralized bridge backend supporting Arbitrum, Base, and Twine Chain using Rust services.\n" +
+            "• Reduced transaction processing latency by ~60% via Kafka-based asynchronous execution.\n" +
+            "• Deployed and monitored Ethereum execution/consensus clients on Kubernetes.\n" +
+            "• Built CI/CD with GitHub Actions + ArgoCD; maintained internal API and workflow documentation.",
+          color: "#0879bf",
+        },
+        {
+          title: "Software Engineer",
+          company: "Ibriz.Ai (Venture 23)",
           company_url: "https://ibriz.ai/",
           logo_path: "ibriz_logo.png",
-          duration: "Feb 2022 - Now",
-          location: "California, USA",
+          duration: "Feb 2022 - Nov 2023",
+          location: "Remote (US-based)",
           description:
-            "I am working on developing blockchain applications and de-fi products which runs on both EVM and non-EVM chains. I was involved in multiple NFT and dApp projects, from designing software architecture to deploying on production on different cloud services.",
+            "• Built and maintained a centralized bridge between Aleo and Ethereum using Go.\n" +
+            "• Developed multiple chain indexers supporting cross-chain bridge operations using Node.js.\n" +
+            "• Built backend infrastructure for a Web3 game server using Node.js.\n" +
+            "• Developed dApp interfaces using React + Redux with wallet integrations and on-chain workflows.\n" +
+            "• Developed and tested smart contracts using Solidity and Hardhat for EVM chains.",
           color: "#0879bf",
         },
         {
@@ -519,7 +486,10 @@ const experience = {
           duration: "April 2021 - Jan 2022",
           location: "Lalitpur, Nepal",
           description:
-            "I was involved in developing compliance management system for client and also compant's internal tools. I was mainly responsible full stack side with ReactJS and Flask. I was also involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "• Contributed to frontend development for compliance management software using React.\n" +
+            "• Developed backend services using Django and supported production deployments.\n" +
+            "• Built SQL-based reporting workflows and ETL pipelines using Python.",
+
           color: "#9b1578",
         },
         // {

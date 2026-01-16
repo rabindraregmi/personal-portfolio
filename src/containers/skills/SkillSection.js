@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
+import BackendImg from "./BackendImg";
 import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
@@ -15,6 +16,8 @@ function GetSkillSvg(props) {
     return <FullStackImg theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
+  else if (props.fileName === "BackendImg")
+    return <BackendImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;
 }
 

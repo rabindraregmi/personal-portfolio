@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Backend Engineer Illustration</title>
+  <desc id="desc">Backend engineer illustration with servers, terminal, database, cloud, gears, and deployment status.</desc>
+
+  <!-- ====== Palette ======
+    primary: #55198b
+    dark:    #3f3d56
+    mid:     #46455b
+    light:   #f2f2f2
+    green:   #57b894
+  ======================= -->
+
+  <defs>
+    <linearGradient id="bgBlob" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <linearGradient id="purpleGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#55198b" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#55198b" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".06"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".18"/>
+    </filter>
+
+    <filter id="tinyShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity=".14"/>
+    </filter>
+
+    <clipPath id="cardClip">
+      <rect x="220" y="150" width="760" height="410" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background blobs -->
+  <path d="M190 150c120-120 330-140 480-50 90 55 165 150 270 160 115 12 205-105 320-100 105 5 185 105 200 210 15 112-40 230-120 305-105 98-240 138-375 134-135-4-246-55-345-135-96-78-188-165-235-279-48-117-10-246 105-345z"
+        fill="url(#bgBlob)"/>
+  <path d="M980 70c75 35 105 125 72 196-36 76-129 116-210 88-73-26-108-116-78-191 32-77 136-130 216-93z"
+        fill="#f2f2f2" opacity=".7"/>
+
+  <!-- Ground -->
+  <line x1="90" y1="640" x2="1110" y2="640" stroke="#3f3d56" stroke-width="2"/>
+
+  <!-- Decorative arcs (left) -->
+  <path d="M130 640c0-62 43-112 98-112" fill="none" stroke="#55198b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M130 640c0-96 67-174 152-174" fill="none" stroke="#46455b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M130 640c0-46 20-84 45-84" fill="none" stroke="#55198b" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Main card -->
+  <g filter="url(#softShadow)">
+    <rect x="220" y="150" width="760" height="410" rx="28" fill="#3f3d56"/>
+    <rect x="240" y="170" width="720" height="370" rx="22" fill="url(#panelGrad)"/>
+  </g>
+
+  <!-- Top cloud + glow -->
+  <g>
+    <path d="M520 132c10-38 44-64 85-64 36 0 66 20 78 52 26-4 51 10 63 34 16 34-2 74-38 86H544c-35 0-63-28-63-63 0-29 20-53 49-61z"
+          fill="#f2f2f2"/>
+    <path d="M520 132c10-38 44-64 85-64 36 0 66 20 78 52 26-4 51 10 63 34 16 34-2 74-38 86H544c-35 0-63-28-63-63 0-29 20-53 49-61z"
+          fill="url(#purpleGlow)"/>
+  </g>
+
+  <!-- Gears (top-right) -->
+  <g transform="translate(930 210)" filter="url(#tinyShadow)">
+    <!-- gear big -->
+    <g transform="translate(-40 -30)">
+      <circle r="44" fill="#fff" opacity=".96"/>
+      <circle r="18" fill="#3f3d56" opacity=".9"/>
+      <g fill="#55198b">
+        <rect x="-5" y="-70" width="10" height="18" rx="4"/>
+        <rect x="-5" y="52" width="10" height="18" rx="4"/>
+        <rect x="-70" y="-5" width="18" height="10" rx="4"/>
+        <rect x="52" y="-5" width="18" height="10" rx="4"/>
+        <rect x="-52" y="-52" width="16" height="10" rx="4" transform="rotate(-45)"/>
+        <rect x="-52" y="42" width="16" height="10" rx="4" transform="rotate(45)"/>
+        <rect x="36" y="-52" width="16" height="10" rx="4" transform="rotate(45)"/>
+        <rect x="36" y="42" width="16" height="10" rx="4" transform="rotate(-45)"/>
+      </g>
+    </g>
+
+    <!-- gear small -->
+    <g transform="translate(55 45)">
+      <circle r="34" fill="#fff" opacity=".96"/>
+      <circle r="13" fill="#3f3d56" opacity=".9"/>
+      <g fill="#46455b">
+        <rect x="-4" y="-54" width="8" height="16" rx="4"/>
+        <rect x="-4" y="38" width="8" height="16" rx="4"/>
+        <rect x="-54" y="-4" width="16" height="8" rx="4"/>
+        <rect x="38" y="-4" width="16" height="8" rx="4"/>
+        <rect x="-40" y="-40" width="14" height="8" rx="4" transform="rotate(-45)"/>
+        <rect x="-40" y="32" width="14" height="8" rx="4" transform="rotate(45)"/>
+        <rect x="26" y="-40" width="14" height="8" rx="4" transform="rotate(45)"/>
+        <rect x="26" y="32" width="14" height="8" rx="4" transform="rotate(-45)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Content inside card -->
+  <g clip-path="url(#cardClip)">
+    <!-- Server Rack (left) -->
+    <g transform="translate(270 210)">
+      <rect x="0" y="0" width="230" height="320" rx="22" fill="#55198b"/>
+      <rect x="16" y="18" width="198" height="86" rx="16" fill="#3f3d56" opacity=".92"/>
+      <rect x="16" y="118" width="198" height="86" rx="16" fill="#3f3d56" opacity=".92"/>
+      <rect x="16" y="218" width="198" height="86" rx="16" fill="#3f3d56" opacity=".92"/>
+
+      <!-- Rack header details -->
+      <rect x="24" y="30" width="92" height="10" rx="5" fill="#f2f2f2" opacity=".75"/>
+      <rect x="24" y="48" width="132" height="10" rx="5" fill="#f2f2f2" opacity=".6"/>
+      <rect x="24" y="148" width="120" height="10" rx="5" fill="#f2f2f2" opacity=".75"/>
+      <rect x="24" y="248" width="108" height="10" rx="5" fill="#f2f2f2" opacity=".75"/>
+
+      <!-- LEDs row 1 -->
+      <g transform="translate(160 46)">
+        <circle cx="0" cy="0" r="7" fill="#57b894"/>
+        <circle cx="22" cy="0" r="7" fill="#f2f2f2" opacity=".85"/>
+        <circle cx="44" cy="0" r="7" fill="#f2f2f2" opacity=".65"/>
+      </g>
+      <!-- LEDs row 2 -->
+      <g transform="translate(160 146)">
+        <circle cx="0" cy="0" r="7" fill="#57b894"/>
+        <circle cx="22" cy="0" r="7" fill="#f2f2f2" opacity=".85"/>
+        <circle cx="44" cy="0" r="7" fill="#f2f2f2" opacity=".65"/>
+      </g>
+      <!-- LEDs row 3 -->
+      <g transform="translate(160 246)">
+        <circle cx="0" cy="0" r="7" fill="#57b894"/>
+        <circle cx="22" cy="0" r="7" fill="#f2f2f2" opacity=".85"/>
+        <circle cx="44" cy="0" r="7" fill="#f2f2f2" opacity=".65"/>
+      </g>
+
+      <!-- Side vents -->
+      <g opacity=".35">
+        <rect x="6" y="26" width="6" height="278" rx="3" fill="#fff"/>
+        <rect x="218" y="26" width="6" height="278" rx="3" fill="#fff"/>
+      </g>
+    </g>
+
+    <!-- API arrows between rack and terminal -->
+    <g stroke="#f2f2f2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+      <path d="M520 320h55"/>
+      <path d="M560 300l25 20-25 20"/>
+      <path d="M575 382H520" opacity=".75"/>
+      <path d="M540 362l-25 20 25 20" opacity=".75"/>
+    </g>
+
+    <!-- Terminal window (right) -->
+    <g transform="translate(610 220)" filter="url(#tinyShadow)">
+      <rect x="0" y="0" width="320" height="260" rx="18" fill="#ffffff"/>
+      <rect x="0" y="0" width="320" height="40" rx="18" fill="#55198b"/>
+      <circle cx="26" cy="20" r="7" fill="#f2f2f2"/>
+      <circle cx="48" cy="20" r="7" fill="#f2f2f2" opacity=".85"/>
+      <circle cx="70" cy="20" r="7" fill="#f2f2f2" opacity=".7"/>
+
+      <!-- command prompt -->
+      <g transform="translate(22 66)">
+        <rect x="0" y="0" width="240" height="12" rx="6" fill="#e6e6e6"/>
+        <rect x="0" y="22" width="210" height="12" rx="6" fill="#e6e6e6"/>
+        <rect x="0" y="44" width="255" height="12" rx="6" fill="#e6e6e6"/>
+        <rect x="0" y="66" width="180" height="12" rx="6" fill="#e6e6e6"/>
+        <rect x="0" y="88" width="230" height="12" rx="6" fill="#e6e6e6"/>
+        <rect x="0" y="110" width="130" height="12" rx="6" fill="#e6e6e6"/>
+
+        <!-- "build" lines highlighted -->
+        <rect x="0" y="146" width="270" height="12" rx="6" fill="#55198b" opacity=".18"/>
+        <rect x="0" y="168" width="220" height="12" rx="6" fill="#55198b" opacity=".18"/>
+
+        <!-- cursor -->
+        <rect x="0" y="204" width="200" height="12" rx="6" fill="#e6e6e6"/>
+        <rect x="208" y="204" width="12" height="12" rx="3" fill="#55198b"/>
+      </g>
+    </g>
+
+    <!-- Database cylinder (bottom center) -->
+    <g transform="translate(520 470)" filter="url(#tinyShadow)">
+      <ellipse cx="0" cy="0" rx="90" ry="22" fill="#ffffff" opacity=".98"/>
+      <path d="M-90 0v78c0 12 40 22 90 22s90-10 90-22V0"
+            fill="#ffffff" opacity=".98"/>
+      <ellipse cx="0" cy="78" rx="90" ry="22" fill="#f2f2f2"/>
+      <ellipse cx="0" cy="0" rx="90" ry="22" fill="#55198b" opacity=".18"/>
+
+      <!-- DB stripes -->
+      <path d="M-90 26c0 12 40 22 90 22s90-10 90-22" fill="none" stroke="#e6e6e6" stroke-width="3"/>
+      <path d="M-90 52c0 12 40 22 90 22s90-10 90-22" fill="none" stroke="#e6e6e6" stroke-width="3"/>
+
+      <!-- label -->
+      <rect x="-54" y="22" width="108" height="30" rx="10" fill="#3f3d56" opacity=".9"/>
+      <rect x="-40" y="34" width="80" height="6" rx="3" fill="#f2f2f2" opacity=".85"/>
+    </g>
+
+    <!-- Deployment success badge (bottom right inside card) -->
+    <g transform="translate(900 520)" filter="url(#tinyShadow)">
+      <circle r="42" fill="#ffffff"/>
+      <circle r="32" fill="#57b894" opacity=".18"/>
+      <path d="M-18 2l11 11 25-28" fill="none" stroke="#57b894" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- Foreground subtle shadow -->
+  <ellipse cx="600" cy="622" rx="280" ry="18" fill="#000" opacity=".08"/>
+</svg>
